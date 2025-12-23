@@ -1,5 +1,5 @@
 
-shared.LoaderTitle = "Subscribe To MozilOnTop";
+shared.LoaderTitle = "Subscribe To Forge Scripts";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
