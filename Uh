@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Subscribe To MozilOnTop";
+shared.LoaderTitle = "Subscribe To Forge Scripts";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -102,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: MozilOnTop",
+    Text = "Youtube: Forge Scripts",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -780,7 +780,7 @@ local function runDonateVisualNow()
 end
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "MozilHubV4"
+ScreenGui.Name = "ForgeHubV4"
 ScreenGui.Parent = PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -819,7 +819,7 @@ TitleLabel.BackgroundTransparency = 1
 TitleLabel.Position = UDim2.new(0, 0, 0, 10)
 TitleLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleLabel.Font = Enum.Font.GothamBold
-TitleLabel.Text = "MOZIL HUB V4"
+TitleLabel.Text = "Forge HUB V4"
 TitleLabel.TextColor3 = Color3.new(1, 1, 1)
 TitleLabel.TextSize = 24
 TitleLabel.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
@@ -881,7 +881,7 @@ CreatorLabel.BackgroundTransparency = 1
 CreatorLabel.Position = UDim2.new(0, 0, 0.8, 0)
 CreatorLabel.Size = UDim2.new(1, 0, 0, 20)
 CreatorLabel.Font = Enum.Font.Gotham
-CreatorLabel.Text = "Made by MozilOnTop"
+CreatorLabel.Text = "Made by Forge Scripts"
 CreatorLabel.TextColor3 = Color3.new(1, 1, 1)
 CreatorLabel.TextSize = 14
 
