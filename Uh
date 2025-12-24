@@ -434,7 +434,7 @@ local function playAmountSound(amount)
 end
 
 local function createDonationVisual(username, amount)
-    local text = username .. " DONATED î€‚" .. formatNumber(amount) .. " TO YOU!"
+    local text = username .. " DONATED " .. formatNumber(amount) .. " TO YOU!"
     local clone = DONATION_TEMPLATE:Clone()
     clone.Parent = POPUPS_FOLDER
     clone.Transparency = 1
@@ -657,7 +657,7 @@ local function showRobuxSummary(totalAmount)
     mainText.Size = UDim2.new(1, -20, 0, 40)
     mainText.Position = UDim2.new(0, 10, 0, 40)
     mainText.Font = Enum.Font.GothamBold
-    mainText.Text = "You got " .. formatNumber(net) .. " robux ðŸ’¸"
+    mainText.Text = "You got " .. formatNumber(net) .. " robux 💸"
     mainText.TextColor3 = Color3.fromRGB(0, 255, 140)
     mainText.TextSize = 20
     mainText.TextWrapped = true
